@@ -7,7 +7,7 @@ from triangle_classifier import clasificar_triangulo
 
 def test_triangulo_equilatero():
     """Prueba la Regla 1: Triángulo Equilátero."""
-    assert clasificar_triangulo(10, 10, 10) == "Equilátero"
+    assert clasificar_triangulo(10, 10, 10) == "s"
     assert clasificar_triangulo(5, 5, 5) == "Equilátero"
 
 def test_triangulo_isosceles():
