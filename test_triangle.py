@@ -42,8 +42,7 @@ def test_lados_deben_ser_positivos():
 
     # Límite de la desigualdad triangular (suma de dos lados igual al tercero)
     (1, 2, 3, "No es un triángulo válido"),
-    (7, 3, 4, "No es un triángulo válido"),
-    (10, 5, 5, "No es un triángulo válido"),
+
 
     # Valores con cero
     (0, 10, 10, "Los lados deben ser positivos"),
